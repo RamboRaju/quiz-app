@@ -1,0 +1,30 @@
+div {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: purple;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+article {
+    padding: 10px;
+    margin:  10px;
+    background: aqua;
+
+    flex: auto;
+    flex-flow: row wrap;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
